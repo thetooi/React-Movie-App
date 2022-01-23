@@ -1,0 +1,151 @@
+.SingleDataMedia {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 15px 10px;
+  position: relative;
+  cursor: pointer;
+  object-fit: contain;
+
+  /* background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(14, 13, 13, 0.4)); */
+}
+.SingleDataMedia img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.SingleDataDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  position: absolute;
+  background-color: rgba(15, 6, 54, 0.6);
+  height: 45px;
+  width: 100%;
+  bottom: 0;
+}
+.SingleDataDetails h6 {
+  font-size: 13px;
+  bottom: 0px;
+  left: 0;
+  z-index: 77;
+
+  right: 0;
+}
+.vote__tag {
+  font-size: 12px;
+  background-color: #180e3d;
+  justify-content: flex-end;
+  width: 28px;
+  height: 20px;
+  padding: 0.2px 0;
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+}
+.read__more {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  z-index: 1000;
+  visibility: hidden;
+}
+.SingleDataMedia::after {
+  content: "";
+  position: absolute;
+  background: transparent;
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.SingleDataMedia:hover.SingleDataMedia::after {
+  content: "";
+  position: absolute;
+  background: rgba(11, 5, 65, 0.7);
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.SingleDataMedia:hover .read__more {
+  visibility: visible;
+}
+.read__more button {
+  background: rgba(211, 42, 36, 0.753);
+  border-radius: 15px;
+  border: 1px solid #34cc34;
+  height: 35px;
+  width: 75px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+.tag {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.tag.green {
+  color: #34cc34;
+}
+.tag.orange {
+  color: orange;
+}
+.tag.red {
+  color: red;
+}
+@media screen and (max-width: 1024px) {
+  .SingleDataMedia {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 15px 10px;
+    position: relative;
+    cursor: pointer;
+    object-fit: contain;
+
+    /* background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(14, 13, 13, 0.4)); */
+  }
+  .SingleDataDetails h6 {
+    font-size: 11px;
+    bottom: 0px;
+    left: 0;
+    z-index: 77;
+
+    right: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  .SingleDataMedia {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 15px 2px;
+    position: relative;
+    cursor: pointer;
+    object-fit: contain;
+
+    /* background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(14, 13, 13, 0.4)); */
+  }
+}
+@media screen and (max-width: 375px) {
+  .SingleDataMedia {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 15px 10px;
+    position: relative;
+    cursor: pointer;
+    object-fit: contain;
+
+    /* background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(14, 13, 13, 0.4)); */
+  }
+}

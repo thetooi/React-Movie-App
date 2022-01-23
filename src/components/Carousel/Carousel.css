@@ -1,0 +1,31 @@
+.carousel__d {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  padding: 10px;
+  position: relative;
+}
+.caro_img {
+  border-radius: 10px;
+  height: 135px;
+  width: 100px;
+  margin-bottom: 5px;
+  /* box-shadow: 0px 0px 5px rgb(240, 240, 240); */
+}
+/* .caro__details {
+  position: absolute;
+  bottom: 15px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(23, 28, 73, 0.9);
+  height: 30px;
+  width: 130px;
+  font-weight: 100;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+.caro__details h6 {
+  font-size: 11px;
+}

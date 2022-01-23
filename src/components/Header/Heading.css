@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+.MainHeading {
+  z-index: 100 !important;
+  color: #fff;
+}
+.MainHeading img {
+  width: 120px;
+  height: 75px;
+  z-index: 100;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .MainHeading {
+    z-index: 100 !important;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 350px) {
+  .MainHeading img {
+    z-index: 100;
+    margin-bottom: 0px !important;
+  }
+}

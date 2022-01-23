@@ -1,0 +1,118 @@
+.ListContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.ListContent2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+.all {
+  position: relative;
+  margin: 40px 0;
+}
+.all::after {
+  content: "";
+  position: absolute;
+  background: rgba(11, 5, 65, 0.7);
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.TrailerContent {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/oKt4J3TFjWirVwBqoHyIvv5IImd.jpg");
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0 20px;
+}
+
+.TrailerContent__title {
+  color: #fff;
+  background: #191c76;
+  padding: 7px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+  width: 150px;
+  position: relative;
+  margin: 20px;
+  top: 20px;
+  z-index: 200;
+}
+.TrailerContent__title h2 {
+  font-size: 16px;
+  z-index: 200;
+}
+.ListContent3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+}
+.title__home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+}
+.view__more p {
+  color: #009688;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+.view__more p:hover {
+  color: #f1f4f8;
+  text-decoration: none !important;
+}
+@media screen and (max-width: 1319px) {
+  .all {
+    height: 620px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 620px !important;
+  }
+  .wrapper {
+    margin-top: 50px !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .all {
+    height: 1100px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 1100px !important;
+  }
+  .wrapper {
+    margin-top: 50px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .all {
+    height: 1000px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 1000px !important;
+  }
+  .wrapper {
+    margin-top: 50px !important;
+  }
+}

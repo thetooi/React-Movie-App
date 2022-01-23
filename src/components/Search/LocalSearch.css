@@ -1,0 +1,40 @@
+/* Bootstrap 4 text input with search icon */
+.search {
+  height: 55px !important;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.search input {
+  padding: 27px !important;
+}
+.search Button {
+  background: linear-gradient(45deg, #00aeff, #a68eff);
+  height: inherit;
+  position: absolute;
+  color: #0d0c35;
+  bottom: 0px;
+  right: 0px;
+}
+TextField {
+  width: 500px !important;
+}
+
+@media screen and (max-width: 450px) {
+  .search {
+    width: 90%;
+
+    height: 49px !important;
+  }
+  .search input {
+    padding: 25px !important;
+  }
+  .search Button {
+    background: linear-gradient(45deg, #00aeff, #a68eff);
+    height: inherit;
+    color: #0d0c35;
+  }
+  TextField {
+    width: 60% !important;
+  }
+}

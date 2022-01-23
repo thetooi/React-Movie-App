@@ -1,0 +1,14 @@
+.BottomNav {
+  display: none;
+}
+
+.css-1ee5err-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+  padding-top: 6px;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media (max-width: 768px) {
+  .BottomNav {
+    display: block;
+  }
+}

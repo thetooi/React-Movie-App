@@ -1,0 +1,99 @@
+.main__nav {
+  /* background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/phwgPLUIcv3sbI1xmkiurThR13Q.jpg"); */
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+}
+.main__nav::after {
+  content: "";
+  position: absolute;
+  /* background: rgba(23, 12, 44, 0.7); */
+  background-image: linear-gradient(
+    to top,
+    rgb(12, 12, 56) 50px,
+    rgba(31, 31, 31, 0.4) 50%
+  );
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.nav {
+  color: #fff;
+  z-index: 1000;
+  position: absolute;
+  width: 60%;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px !important;
+  text-align: left;
+}
+.nav h3 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800;
+}
+.nav p {
+  color: #abb7c4;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  /* font-family: "Poppins", sans-serif !important; */
+}
+.back__btn button {
+  background: transparent;
+  border: 2px solid rgb(76, 179, 93);
+  border-radius: 20px;
+  height: 35px;
+  font-size: 11px;
+  width: 100px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.back__btn button:hover {
+  background: rgb(189, 43, 38);
+}
+@media screen and (max-width: 900px) {
+  .nav {
+    width: 90% !important;
+    bottom: 20px !important;
+  }
+  .nav h3 {
+    font-size: 2.2rem;
+  }
+  .nav p {
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main__nav {
+    height: 250px !important;
+  }
+  .main__nav::after {
+    background-image: linear-gradient(
+      to top,
+      rgb(8, 8, 41) 50px,
+      rgba(9, 7, 27, 0.4) 50%
+    ) !important;
+    top: 2px !important;
+  }
+  .nav {
+    width: 90% !important;
+    bottom: 20px !important;
+  }
+  .nav h3 {
+    font-size: 1.6rem;
+  }
+
+  .nav p {
+    display: none;
+  }
+}
