@@ -6,7 +6,6 @@ import SingleData from "../SingleData/SingleData";
 import "./SinglePage.css";
 import SingleVideoPage from "./SingleVideoPage";
 import Carousel from "../Carousel/Carousel";
-import "./singlepage.scss";
 import $ from "jquery";
 
 const SinglePage = () => {

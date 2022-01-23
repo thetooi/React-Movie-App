@@ -153,10 +153,29 @@
 }
 .videopage {
   margin-bottom: 10px;
+  z-index: 1200;
 }
 .year {
   padding-left: 5px;
   margin-bottom: 6px;
+}
+.myModal {
+}
+.modal-content {
+  width: 680px !important;
+  height: 460px !important;
+  margin-top: 100px !important;
+  margin-right: 0 !important;
+  background-color: #000000 !important;
+}
+.modal-header {
+  border: none !important;
+}
+iframe {
+  border-radius: 10px;
+
+  width: 680px !important;
+  height: 460px !important;
 }
 /* .like__btn2 {
   background: rgb(39, 177, 20) !important;
@@ -290,13 +309,13 @@ svg {
     font-size: 1.5rem;
   }
   .modal-content {
-    width: 380px !important;
-    height: 200px !important;
+    width: 390px !important;
+    height: 280px !important;
     margin-right: 0 !important;
   }
   iframe {
     width: 350px !important;
-    height: 200px !important;
+    height: 240px !important;
   }
   .genre {
     margin: 2px;

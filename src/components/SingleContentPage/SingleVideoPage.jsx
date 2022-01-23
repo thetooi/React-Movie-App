@@ -1,6 +1,6 @@
 import $ from "jquery";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-
+import "./SinglePage.css";
 const SingleVideoPage = ({ trailer, url, title }) => {
   // Stops youtube video playing in background after close
   $(document).ready(function () {

@@ -46,11 +46,7 @@ const MainNav = () => {
 
           <div className="all__right">
             <form className="footer-email-form ">
-              <input
-                type="email"
-                placeholder="Search Movies, Tv Series"
-                disabled
-              />
+              <input type="email" placeholder="Search Movies, Tv Series" />
               <button>
                 <SearchIcon />
               </button>
