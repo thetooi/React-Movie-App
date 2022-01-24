@@ -29,18 +29,3 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 #### Step 4:
      npm  start  
 <!-- ----------------------------------------------------------------------------------- -->
-## Demo
-
-Check out a live demo and try it for yourself here: [click me](https://cinemy-movie-app.netlify.app/)
-
-# ScreenShots
-
-## Home Page
-
-<div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"/>
-  
- ## Single page 
-<div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
-
-  
-  
