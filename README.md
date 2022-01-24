@@ -21,7 +21,7 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
   
   <div styel='display:flex;justift-content:space-between'>
    <img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa"  />
-    <img src="https://drive.google.com/uc?id=1dbBT-cZlCheoGWOzSvy3imEUQwYB6jzr"  />
+    <img src="https://drive.google.com/uc?id=1zC8qQ8wIOGYZwnxGwMgvwfKnh7uM2Kcn"  />
   </div>
   
 
