@@ -1,7 +1,8 @@
-# <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" width='50px'/> ReactMovieApp || Reactjs 
+# <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" width='180px'/> ReactMovieApp || Reactjs 
+![image](https://user-images.githubusercontent.com/65393068/150739020-a4404c03-9f6c-45a4-975c-712c2a827134.png)
 
   
-<p>This is an application using React as the framework and allows the user to search movies they want to watch from the MovieDB API.
+<p >This is an application using React as the framework and allows the user to search movies they want to watch from the MovieDB API.
 </p>
 
 ## Demo
