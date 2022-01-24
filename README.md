@@ -5,22 +5,24 @@
 </p>
  
 ## Run these Commads
-### Step 1,  Clone this repository:
+#### Step 1,  Clone this repository:
      git clone https://github.com/james-muriithi/movie-palace.git
-### Step 2, Install Node.js dependencies:
+#### Step 2, Install Node.js dependencies:
      npm install        
-### Step 3, Set your api key environment variable. If you don't have the api key get one from  [TheMovieDb](https://www.themoviedb.org/)
+#### Step 3, Set your api key environment variable. If you don't have the api key get one from  [TheMovieDb](https://www.themoviedb.org/)
      REACT_APP_API_KEY=your_api_key
-### Step 4:
+#### Step 4:
      npm  start  
------------------------------------------------------------------------------------
-### [Live Demo](https://cinemy-movie-app.netlify.app/)
+<!-- ----------------------------------------------------------------------------------- -->
+## Demo
+
+Check out a live demo and try it for yourself here: [click me](https://cinemy-movie-app.netlify.app/)
 
 ## Home Page
 
 <div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"/>
   
- ## About Movie/Series
+ ## Single page 
 <div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
 
   
