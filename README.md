@@ -19,15 +19,7 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
       <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" height='535' width='290'/></kbd>
 </div>
   
- ## Single page 
-<div> 
-      <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  height='535' width='440' /> </kbd>  
-      <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='535' width='290' /></kbd>
-</div>
-  
-
- 
-## Run these Commads
+  ## Run these Commads
 #### Step 1,  Clone this repository:
      git clone https://github.com/tech-jamara/React-Movie-App.git
 #### Step 2, Install Node.js dependencies:
@@ -36,4 +28,14 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
      REACT_APP_API_KEY=your_api_key
 #### Step 4:
      npm  start  
+     
+ ## Single page 
+<div> 
+      <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  height='535' width='440' /> </kbd>  
+      <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='535' width='290' /></kbd>
+</div>
+  
+
+ 
+
 <!-- ----------------------------------------------------------------------------------- -->
