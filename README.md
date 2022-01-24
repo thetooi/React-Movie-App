@@ -14,15 +14,16 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 
 ## Home Page
 
-<div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"/>
+<div> 
+     <kbd><img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS" height='685' width='580'/></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" width='357'/></kbd>
+</div>
   
  ## Single page 
-<div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
-  
-  <div styel='display:flex;justift-content:space-between'>
-   <img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa"  />
-    <img src="https://drive.google.com/uc?id=1zC8qQ8wIOGYZwnxGwMgvwfKnh7uM2Kcn"  />
-  </div>
+<div> 
+      <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci" height='685' width='580'/> </kbd>  
+      <kbd><img src="https://drive.google.com/uc?id=1QeVpY2sqJ0FatpT642t0qTIaR1ZNgx4Z"  height='685' width='357'/></kbd>
+</div>
   
 
  
