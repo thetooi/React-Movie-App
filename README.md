@@ -15,8 +15,8 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 ## Home Page
 
 <div> 
-     <kbd><img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS" height='685' width='580'/></kbd>
-      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" width='357'/></kbd>
+     <kbd><img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS" height='655' width='580'/></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" height='645' width='300'/></kbd>
 </div>
   
  ## Single page 
