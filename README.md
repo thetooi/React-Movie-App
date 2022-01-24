@@ -18,6 +18,13 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
   
  ## Single page 
 <div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
+  
+  <div styel='display:flex;justift-content:space-between'>
+   <img src="https://drive.google.com/uc?id=1ZSzxqCu6UpVg6iqhZ_ijwee3re0O2e3R"  />
+    <img src="https://drive.google.com/uc?id=1beJjLTwcdODgGJZbMxi40x5zykHEc9pl"  />
+  </div>
+  
+
  
 ## Run these Commads
 #### Step 1,  Clone this repository:
