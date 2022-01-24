@@ -18,6 +18,8 @@
 
 Check out a live demo and try it for yourself here: [click me](https://cinemy-movie-app.netlify.app/)
 
+# ScreenShots
+
 ## Home Page
 
 <div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"/>
