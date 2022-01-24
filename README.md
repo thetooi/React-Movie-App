@@ -3,6 +3,19 @@
   
 <p>This is an application using React as the framework and allows the user to search movies they want to watch from the MovieDB API.
 </p>
+
+## Demo
+
+Check out a live demo and try it for yourself here: [click me](https://cinemy-movie-app.netlify.app/)
+
+# ScreenShots
+
+## Home Page
+
+<div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"/>
+  
+ ## Single page 
+<div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
  
 ## Run these Commads
 #### Step 1,  Clone this repository:
