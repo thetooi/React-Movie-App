@@ -4,7 +4,7 @@ React Movie App
 
 ## Home Page
 
-<div> <img src="https://drive.google.com/uc?id=1NAdaj6mIS7yO8OF85N6Y839HdXhAHMlY"  />
+<div> <img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS"  />
   
  ## About Movie/Series
-<div> <img src="https://drive.google.com/uc?id=1XOfV4kirvKrpn3IVkgsUfYduzETC-aZF"  />
+<div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  />
