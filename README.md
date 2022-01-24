@@ -32,7 +32,7 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
      git clone https://github.com/james-muriithi/movie-palace.git
 #### Step 2, Install Node.js dependencies:
      npm install        
-#### Step 3, Set your api key environment variable. If you don't have the api key get one from  [TheMovieDb](https://www.themoviedb.org/)
+#### Step 3, Set your api key environment variable(.env). Get an api key from  [TheMovieDb](https://www.themoviedb.org/)
      REACT_APP_API_KEY=your_api_key
 #### Step 4:
      npm  start  
