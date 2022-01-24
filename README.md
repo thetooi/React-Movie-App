@@ -10,7 +10,7 @@
 
 Check out a live demo and try it for yourself here: [click me](https://cinemy-movie-app.netlify.app/)
 
-# ScreenShots
+<!-- # ScreenShots -->
 
 ## Home Page
 
