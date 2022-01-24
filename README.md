@@ -22,7 +22,7 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
  ## Single page 
 <div> 
       <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  height='535' width='440' /> </kbd>  
-      <kbd><img src="https://drive.google.com/uc?id=1QeVpY2sqJ0FatpT642t0qTIaR1ZNgx4Z" height='545' width='300' /></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='545' width='300' /></kbd>
 </div>
   
 
