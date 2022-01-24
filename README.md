@@ -16,20 +16,20 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 
 <div> 
      <kbd><img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS" height='535' width='440'/></kbd>
-      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" height='545' width='300'/></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" height='535' width='290'/></kbd>
 </div>
   
  ## Single page 
 <div> 
       <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  height='535' width='440' /> </kbd>  
-      <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='545' width='300' /></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='535' width='290' /></kbd>
 </div>
   
 
  
 ## Run these Commads
 #### Step 1,  Clone this repository:
-     git clone https://github.com/james-muriithi/movie-palace.git
+     git clone https://github.com/tech-jamara/React-Movie-App.git
 #### Step 2, Install Node.js dependencies:
      npm install        
 #### Step 3, Set your api key environment variable(.env). Get an api key from  [TheMovieDb](https://www.themoviedb.org/)
