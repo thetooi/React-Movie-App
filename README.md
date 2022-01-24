@@ -20,7 +20,7 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 <div> <img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"/>
   
   <div styel='display:flex;justift-content:space-between'>
-   <img src="https://drive.google.com/uc?id=1ZSzxqCu6UpVg6iqhZ_ijwee3re0O2e3R"  />
+   <img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa"  />
     <img src="https://drive.google.com/uc?id=1dbBT-cZlCheoGWOzSvy3imEUQwYB6jzr"  />
   </div>
   
