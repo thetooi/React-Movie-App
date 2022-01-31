@@ -15,8 +15,8 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
 ## Home Page
 
 <div> 
-     <kbd><img src="https://drive.google.com/uc?id=1ICMTUoZkmywXjx_10QURiaNmKbXI95jS" height='535' width='440'/></kbd>
-      <kbd><img src="https://drive.google.com/uc?id=1KE9aTqpxxvGNYaelUo9m8DjJq6iHzlIa" height='535' width='290'/></kbd>
+     <kbd><img src="https://drive.google.com/uc?id=1fEpBRkFQvX3zhUDGflPHDEq7e_j8AZWP"/></kbd>
+      <kbd><img src="https://drive.google.com/uc?id=14xckC8Zbrvz2rUuHkh084pNZVnoarz-J"/></kbd>
 </div>
   
   ## Run these Commads
@@ -30,10 +30,10 @@ Check out a live demo and try it for yourself here: [click me](https://cinemy-mo
      npm  start  
      
  ## Single page 
-<div> 
+<!-- <div> 
       <kbd><img src="https://drive.google.com/uc?id=1-Ne-XbWZt1y2Tj6rh3VcJ2eQPcZXC0ci"  height='535' width='440' /> </kbd>  
       <kbd><img src="https://drive.google.com/uc?id=1aK9Y8T847hrKUvVxHXkN3I9Ch2fam3Dz" height='535' width='290' /></kbd>
-</div>
+</div> -->
   
 
  
