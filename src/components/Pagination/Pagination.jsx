@@ -1,11 +1,8 @@
 import * as React from "react";
-// import Pagination from "@mui/material/Pagination";
 import Pagination from "@material-ui/lab/Pagination";
-
 import "./Pagination.css";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
-// import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles(() => ({
   ul: {
@@ -34,6 +31,8 @@ export default function Pagination2({
   numOfPages,
   media,
   searchTerm,
+  setIsLoading,
+  getGenre,
 }) {
   const history = useHistory();
   const classes = useStyles({
@@ -42,26 +41,31 @@ export default function Pagination2({
     media,
     searchTerm,
   });
-
   const handlePageChenge = (page) => {
     window.scroll(0, 0);
-    if (searchTerm) history.push(`/${media}/${searchTerm}/page/${page}`);
-    else {
+    if (searchTerm) {
+      history.push(`/${media}/${searchTerm}/page/${page}`);
+    } else {
       history.push(`/${media}/page/${page}`);
     }
     setPage(page);
   };
 
+  const mynum = parseInt(numOfPages);
   return (
     <div className="pagin">
       <Pagination
-        count={numOfPages}
+        count={mynum}
         shape="rounded"
         color="primary"
+        defaultPage={1}
+        hidePrevButton
+        hideNextButton
         classes={{ ul: classes.ul }}
         style={{
           marginTop: "20px",
           display: "flex",
+          zIndex: "1000",
           justifyContent: "center",
         }}
         onChange={(e) => handlePageChenge(e.target.textContent)}

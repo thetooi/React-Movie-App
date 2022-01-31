@@ -2,22 +2,29 @@
 .MainHeading {
   z-index: 100 !important;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 .MainHeading img {
-  width: 120px;
-  height: 75px;
+  width: 160px;
+  height: 120px;
   z-index: 100;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .MainHeading {
     z-index: 100 !important;
     color: #fff;
   }
+  .MainHeading img {
+    width: 130px;
+  }
 }
-@media screen and (max-width: 350px) {
+
+@media screen and (max-width: 370px) {
   .MainHeading img {
     z-index: 100;
+    width: 100px;
     margin-bottom: 0px !important;
   }
 }

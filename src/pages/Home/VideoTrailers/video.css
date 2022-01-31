@@ -11,14 +11,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 iframe {
   width: 700px;
   height: 400px;
 }
+.wrapper {
+  position: relative;
+}
 .wrapper img {
-  border-radius: 10px;
+  width: 280px;
+  height: 170px;
+}
+.wrapper img::after {
+  content: "";
+  position: absolute;
+  background: rgba(23, 12, 44, 0.7);
+
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .wrapper {

@@ -8,17 +8,31 @@
   width: 1200px;
   z-index: 1000;
 }
+.text-loading {
+  z-index: 1000;
+  color: #d7eef5;
+  font-size: 1.2rem;
+  text-transform: capitalize !important;
+}
 .open__modal .poster__img {
   z-index: 1000;
   z-index: 1000;
-  height: 400px;
+  height: 420px;
   margin: 50px 0;
   margin-right: 50px;
-  border-radius: 20px;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.all__series,
+.all__movies {
+  padding-top: 70px;
+}
+.all__treads {
+  padding-top: 50px;
 }
 .open__modal .backdrop__img {
   z-index: 1000;
-
   width: 350px;
   height: 200px;
   margin: 50px 0;
@@ -32,9 +46,10 @@
 .open__detailsPage {
   display: flex !important;
   justify-content: flex-start !important;
-  color: #fff;
+  color: #e1f2f7;
   min-width: 300px;
   flex-basis: 50%;
+  font-family: "Roboto", sans-serif !important;
   margin: 60px 0px;
   flex-direction: column;
   text-align: start;
@@ -45,13 +60,15 @@
   z-index: 1000 !important;
 }
 .open__detailsPage h3 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .overview__title {
   font-size: 14px;
 }
 .overview p {
   font-size: 14px;
+  font-family: "Roboto", sans-serif !important;
+  line-height: 20px !important;
 }
 .open__modal {
   background-repeat: no-repeat;
@@ -59,6 +76,22 @@
   background-size: cover;
   position: relative;
   height: 540px;
+  padding-top: 100px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background: #000000;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  border: 3px solid green;
+}
+.ratings img {
+  width: 300px;
+  height: max(0.4em, 1rem) !important;
 }
 .open__modal::after {
   content: "";
@@ -72,8 +105,8 @@
   bottom: 0;
   background-image: linear-gradient(
     to right,
-    rgb(12, 12, 56) 150px,
-    rgba(31, 31, 31, 0.6) 100%
+    rgb(11, 11, 58) 400px,
+    rgba(31, 31, 31, 0.5) 100%
   );
 }
 .similar {
@@ -83,28 +116,29 @@
   margin-top: 30px;
 }
 .btn__title {
-  color: #fff;
-  background: linear-gradient(45deg, #00aeff, #a68eff);
-  padding: 7px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  color: rgb(208, 204, 243);
+  padding-top: 10px;
+  border-radius: 5px;
   height: 40px;
-  width: 120px;
+  width: 180px;
+  font-family: "Poppins", sans-serif;
   position: relative;
-  margin: 20px;
   top: 20px;
+  left: 0;
   z-index: 200;
 }
 .btn__title h5 {
   font-size: 16px;
 }
 .genreList {
-  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .genre {
-  border: 2px solid white;
-  padding: 3px 10px;
-  border-radius: 30px;
+  border: 2px solid #d7eef5;
+  padding: 1px 10px !important;
+  border-radius: 50px;
   margin-right: 10px;
 }
 .all__credits {
@@ -127,15 +161,19 @@
 .wrapper {
   transition: all 0.2s ease-in-out;
   transform: none !important;
-  margin-top: 20px !important;
 }
 
 .btn-success {
-  background: transparent !important;
-  border: 2px solid #b8a7f5;
+  background: rgba(60, 63, 63, 0.1) !important;
+  border: 0.5px solid #2fc9f3 !important;
+  box-shadow: 0px 0px 4px 0px rgb(99, 99, 99);
+  transition: all 0.8s ease !important;
 }
 .btn-success:hover {
-  background: #140a20 !important;
+  background: linear-gradient(200deg, #00aeff, #a68eff) !important;
+  box-shadow: 0px 0px 5px 0px rgb(36, 36, 36);
+  border: 1px solid #a4e6eb !important;
+  color: #000000;
   border: 2px solid #5f2ab3;
 }
 .modal-dialog {
@@ -157,19 +195,38 @@
 }
 .year {
   padding-left: 5px;
+  display: flex;
+  align-items: center;
   margin-bottom: 6px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 .myModal {
 }
+.all__cast {
+  color: #ceecee;
+}
+.all__cast h2 {
+  color: #ceecee;
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+}
 .modal-content {
   width: 680px !important;
-  height: 460px !important;
-  margin-top: 100px !important;
+  height: 400px !important;
+  margin-top: 30px !important;
   margin-right: 0 !important;
   background-color: #000000 !important;
 }
 .modal-header {
   border: none !important;
+  padding: 5px 0 !important;
+  margin-top: 10px;
+}
+.close {
+  padding-right: 10px;
+  margin-right: 10px !important;
+  font-size: 30px !important;
 }
 iframe {
   border-radius: 10px;
@@ -177,61 +234,59 @@ iframe {
   width: 680px !important;
   height: 460px !important;
 }
-/* .like__btn2 {
-  background: rgb(39, 177, 20) !important;
+.vote_back {
+  background: rgb(0, 0, 0, 0.5);
+  width: 90px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 1000;
+  margin-left: 7px;
+  margin-bottom: 3px;
+  justify-content: space-around;
+  border-radius: 1px;
+  padding: 0 5px;
 }
-svg {
-  cursor: pointer;
-  overflow: visible;
-  width: 60px;
-  z-index: 1000;
-}
-.press {
-  animation: size 0.4s;
-  color: #e23b3b;
-}
-.press {
-  bottom: 120px;
+.vote_ave {
   font-size: 14px;
-  visibility: visible;
-  animation: fade 1s;
-} */
-
-@keyframes fade {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: #e23b3b;
-  }
-  100% {
-    color: transparent;
-  }
+  font-weight: 700 !important;
+  color: #ceecee;
 }
+b {
+  font-weight: 500 !important;
+}
+.tmdb {
+  color: #2fc9f3;
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+.mygenre {
+  font-family: "Roboto", sans-serif !important;
+}
+.other_lists {
+  z-index: 1000;
+  font-family: "Roboto", sans-serif !important;
+}
+.title_me {
+  font-weight: 700 !important;
+  color: #ceecee;
+}
+.other_lists li {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif !important;
 
-@keyframes size {
-  0% {
-    padding: 10px 12px 8px;
-  }
-  50% {
-    padding: 14px 16px 12px;
-    margin-top: -4px;
-  }
-  100% {
-    padding: 10px 12px 8px;
-  }
+  margin-bottom: 10px;
+  color: #b3b3b3 !important;
+}
+.other_lists span {
+  color: #eaf1f3;
+  font-weight: 500 !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 @media screen and (max-width: 1500px) {
   .open__modal {
-    height: 650px !important;
+    height: 680px !important;
   }
 }
 @media screen and (max-width: 1236px) {
@@ -264,6 +319,13 @@ svg {
     width: 480px !important;
     height: 260px !important;
   }
+  .open__modal::after {
+    background-image: linear-gradient(
+      to right,
+      rgb(11, 11, 58) 200px,
+      rgba(31, 31, 31, 0.6) 150%
+    );
+  }
 }
 @media screen and (max-width: 620px) {
   .open__detailsPage h3 {
@@ -295,7 +357,7 @@ svg {
   }
   .backdrop__img {
     width: 300px !important;
-    height: 200px !important;
+    height: 180px !important;
     margin-right: 0 !important;
   }
   .open__modal {
@@ -320,16 +382,20 @@ svg {
   .genre {
     margin: 2px;
     padding: 3px 2px;
+    border-radius: 10px !important;
+    font-size: 10px !important;
   }
 }
 @media screen and (max-width: 340px) {
   .genre {
     margin: 3px !important;
     padding: 1px 2px;
-    border-radius: 0 !important;
+    font-size: 10px !important;
   }
   .open__modal {
-    height: 800px !important;
+    height: 900px !important;
+  }
+  .genre p {
   }
 }
 

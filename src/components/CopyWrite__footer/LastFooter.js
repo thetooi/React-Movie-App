@@ -1,5 +1,4 @@
 import "./LastFooter.css";
-import { Link } from "react-router-dom";
 import $ from "jquery";
 
 const LastFooter = () => {
@@ -14,10 +13,10 @@ const LastFooter = () => {
             © 2022 CinemyPlex. All Rights Reserved. Designed by{" "}
             <a href="https://jameswaweru.herokuapp.com/">James Waweru</a>.
           </span>
-          <Link className="scroll-to-top">
+          <h6 href="w" className="scroll-to-top">
             <span id="toTop">Back to top &#8593;</span>
             <span className=""></span>
-          </Link>
+          </h6>
         </div>
       </div>
     </>

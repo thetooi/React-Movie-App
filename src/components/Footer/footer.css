@@ -1,14 +1,26 @@
 .footer {
   background: #131313;
-
   background-image: url("../../images/footer-bg.jpg");
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100vw;
+  position: relative;
   margin: auto;
   padding: 40px 0;
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  background: rgba(18, 11, 68, 0.4);
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
 }
 .footer__container__row {
   display: flex !important;
@@ -46,6 +58,7 @@ li {
 }
 .footer-title {
   z-index: 1000 !important;
+  font-size: 17px;
   color: #fff !important;
 }
 .col-fot1,
@@ -53,6 +66,7 @@ li {
   flex-basis: 30%;
   min-width: 300px;
   height: 200px;
+  z-index: 1000;
 }
 .col-fot2,
 .col-fot3,
@@ -60,6 +74,7 @@ li {
   flex-basis: 10%;
   min-width: 250px;
   height: 200px;
+  z-index: 1000;
 }
 .col-fot2,
 .col-fot4,

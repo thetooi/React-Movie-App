@@ -1,6 +1,7 @@
 import $ from "jquery";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./SinglePage.css";
+
 const SingleVideoPage = ({ trailer, url, title }) => {
   // Stops youtube video playing in background after close
   $(document).ready(function () {
@@ -13,20 +14,18 @@ const SingleVideoPage = ({ trailer, url, title }) => {
       });
     });
   });
-  // end
+
   return (
     <>
       <div className="wrapper">
-        <div
-          className="image play_trailer"
-          data-title="Arrival"
-          data-toggle="modal"
-          data-target={`#${trailer}`}
-          // data-target="#myModal"
-        >
-          <div className="btn btn-success px-4">
+        <div className="image play_trailer" data-title="Arrival">
+          <div
+            className="btn btn-success px-4"
+            data-toggle="modal"
+            data-target={`#${trailer}`}
+          >
             <span>
-              <YouTubeIcon />
+              <YouTubeIcon style={{ color: "#e93d3d" }} />
             </span>{" "}
             Watch Trailer
           </div>
@@ -45,9 +44,9 @@ const SingleVideoPage = ({ trailer, url, title }) => {
             style={{ zIndex: "1500", marginTop: "20px" }}
           >
             <div className="modal-header">
-              {/* <h5 className="modal-title" id="exampleModalLabel">
+              <h5 className="modal-title" id="exampleModalLabel">
                 {title} Official Trailer
-              </h5> */}
+              </h5>
               <button
                 type="button"
                 className="close"

@@ -4,35 +4,35 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { img_300, noPicture } from "../../api/config/DefaultImages";
 import "./Carousel.css";
-// const handleDragStart = (e) => e.preventDefault();
+const handleDragStart = (e) => e.preventDefault();
 
 const Gallery = ({ mediaType, id }) => {
   const [credits, setCredits] = useState();
 
   const responsive = {
     0: {
-      items: 2,
+      items: 1,
     },
     380: {
-      items: 2,
+      items: 1,
     },
     512: {
-      items: 3,
+      items: 2,
     },
     665: {
-      items: 4,
+      items: 3,
     },
     767: {
       items: 3,
     },
     870: {
-      items: 3,
+      items: 4,
     },
     1024: {
-      items: 5,
+      items: 6,
     },
     1265: {
-      items: 6,
+      items: 7,
     },
   };
 
@@ -43,9 +43,11 @@ const Gallery = ({ mediaType, id }) => {
           src={n.profile_path ? `${img_300}/${n.profile_path}` : noPicture}
           alt=""
           className="caro_img"
+          onDragStart={handleDragStart}
         />
         <div className="caro__details">
           <h6 className="cast__name">{n.original_name}</h6>
+          <h6 className="character">{n.character}</h6>
         </div>
       </div>
     );

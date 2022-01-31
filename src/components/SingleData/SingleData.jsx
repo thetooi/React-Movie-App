@@ -1,7 +1,18 @@
 import { useHistory } from "react-router-dom";
 import { img_300, unavailable } from "../../api/config/DefaultImages";
 import "./SingleData.css";
+import MuiPlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
+import { styled } from "@mui/material/styles";
 
+const PlayArrowRoundedIcon = styled(MuiPlayArrowRoundedIcon)(`
+
+  &.MuiSvgIcon-root{
+    color:#abb7c4 ;
+  },  &.MuiSvgIcon-root:hover {
+    color: #d13131 ;
+  }
+  
+`);
 const SingleData = ({
   poster_path,
   title,
@@ -30,7 +41,11 @@ const SingleData = ({
 
   return (
     <>
-      <div style={{ color: "white" }} className="SingleDataMedia">
+      <div
+        style={{ color: "white" }}
+        className="SingleDataMedia"
+        onClick={handleClick}
+      >
         <span className={` tag ${setVoteClass(vote_average)} vote__tag`}>
           {Math.round(vote_average * 10) / 10}
         </span>
@@ -40,7 +55,16 @@ const SingleData = ({
           alt=""
         />
         <div className="read__more">
-          <button onClick={handleClick}>Read More</button>
+          <PlayArrowRoundedIcon
+            style={{
+              border: "2px solid #abb7c4",
+              borderRadius: "50px",
+              fontSize: "3.2rem",
+              cursor: "pointer",
+            }}
+            className="play__btn"
+          />
+          {/* <button >Read More</button> */}
         </div>
         <div className="SingleDataDetails">
           <h6>

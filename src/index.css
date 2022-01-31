@@ -6,17 +6,21 @@
 }
 body {
   margin: 0;
-  background-color: rgb(17, 22, 51) !important;
   overflow-x: hidden !important;
+  background-color: #180b3b !important;
+  background-image: url("./images/default_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  scroll-behavior: smooth;
 }
 
 .demoScroll {
   overflow-y: auto;
 }
 
-/* Scroll 1 */
-
-/* Scroll 5 */
 .sc5::-webkit-scrollbar {
   width: 15px;
   height: 15px;

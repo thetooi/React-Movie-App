@@ -1,32 +1,40 @@
 .TreadingHome {
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 .TreadingHome h3 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #abb7c4;
 }
 .btn__home {
-  /* display: flex !important;
-  justify-content: flex-start !important; */
-  color: #fff;
-  background: linear-gradient(45deg, #00aeff, #a68eff);
   padding-top: 10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  width: 200px;
   height: 40px;
-  width: 150px;
-  border-radius: 5px;
-  margin-left: 16px;
-  font-size: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.major {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn__home h6 {
-  color: #111633;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 700;
 }
 .welcome__info {
   background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/phwgPLUIcv3sbI1xmkiurThR13Q.jpg");
@@ -81,21 +89,10 @@ main button {
   border-top-left-radius: 40px;
   height: 45px !important;
 }
-/* .main button {
-  border-bottom-right-radius: 40px;
-  border-top-right-radius: 40px;
-  background: linear-gradient(to left, #323599, #191c76) !important;
-  border: none;
-  outline: none;
-  color: #fff;
-  font-weight: 700;
-} */
+
 .main button:hover {
   color: #444343;
 }
-/* .has-search .form-control input {
-  border-radius: 60px !important;
-} */
 
 .has-search .form-control-feedback {
   position: absolute;
@@ -108,6 +105,7 @@ main button {
   pointer-events: none;
   color: #aaa;
 }
+
 @media screen and (max-width: 729px) {
   .welcome__info {
     height: 300px;
@@ -134,6 +132,18 @@ main button {
     width: 100% !important;
     margin-left: 20px !important;
   }
+  .btn__home {
+    background: transparent !important;
+    padding-right: 30px !important;
+    margin-left: 0 !important;
+    width: 190px !important;
+    margin-bottom: 20px !important;
+  }
+  .btn__home h6 {
+    color: rgb(207, 234, 241);
+    font-family: InspireTWDC, Helvetica, sans-serif;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 370px) {
   .welcome__info {
@@ -155,5 +165,10 @@ main button {
   .main {
     width: 90% !important;
     margin: 10px !important;
+  }
+  .TreadingHome h3 {
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    color: #abb7c4;
   }
 }

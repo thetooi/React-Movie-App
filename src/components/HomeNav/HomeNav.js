@@ -30,7 +30,7 @@ const HomeNav = () => {
         <p>{item.overview}</p>
         <div className="back__btn">
           <button onClick={() => handleClick(item.id, item.media_type)}>
-            READ MORE
+            LEARN MORE
           </button>
         </div>
       </div>
@@ -43,9 +43,10 @@ const HomeNav = () => {
         `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}`
       );
       const alldata = data.results;
-      const filter = alldata.slice(0, 9);
-      setAllContent(filter);
-      console.log(data);
+      const filter = alldata.slice(0, 10);
+      const red = filter.reverse();
+
+      setAllContent(red);
       // eslint-disable-next-line
     } catch (error) {
       console.error(error);

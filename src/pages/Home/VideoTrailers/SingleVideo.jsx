@@ -39,15 +39,13 @@ const SingleVideo = ({ trailer, url, title }) => {
 
           <div className="play">
             <span className="glyphicons_v2 play invert svg">
-              <PlayArrowRoundedIcon
+              {/* <PlayArrowRoundedIcon
                 style={{ color: "white", fontSize: "5rem" }}
                 fontSize="large"
-              />
+              /> */}
             </span>
           </div>
-          <div className="trailer__details">
-            <h6>{title}</h6>
-          </div>
+          <div className="trailer__details">{/* <h6>{title}</h6> */}</div>
         </div>
       </div>
 
