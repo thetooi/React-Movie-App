@@ -17,9 +17,7 @@ Check out a live demo and try it for yourself: [demo](https://cinemy-movie-app.n
 
 ## Home Page
    <kbd><img src="https://drive.google.com/uc?id=1fEpBRkFQvX3zhUDGflPHDEq7e_j8AZWP"/></kbd>
-  ## Single page 
- <kbd><img src="https://drive.google.com/uc?id=14xckC8Zbrvz2rUuHkh084pNZVnoarz-J"/></kbd>
-
+ 
   ## Run these Commands:
  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Step 1:Clone the repository
@@ -32,7 +30,10 @@ Check out a live demo and try it for yourself: [demo](https://cinemy-movie-app.n
      REACT_APP_API_KEY=your_api_key
 #### Step 5:
      npm  start  
-     
+
+## Single page 
+ <kbd><img src="https://drive.google.com/uc?id=14xckC8Zbrvz2rUuHkh084pNZVnoarz-J"/></kbd>
+
  
  ##
  MIT License
