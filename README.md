@@ -11,7 +11,7 @@ This is a responsive web application for viewing in both Mobile and Desktop.
 
 ## Demo
 
-Check out a live demo and try it for yourself: [demo](https://cinemy-movie-app.netlify.app/)
+Check out a live demo and try it for yourself: [demo](https://cinemy.vercel.app/)
 
 <!-- # ScreenShots -->
 
